@@ -1,7 +1,9 @@
 const recipes = {};
 
 function updateObjectWithKeyAndValue(object, key, value) {
-  Object.assign({},object,);
+ const newRecipes = Object.assign({},object);
+ newRecipes[key] = value;
+ return newRecipes;
 }
 
 
