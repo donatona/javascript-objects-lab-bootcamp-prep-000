@@ -1,6 +1,6 @@
 const recipes = {};
 
-function updateObjectWithKeyAndValue(recipes, key, value) {
+function updateObjectWithKeyAndValue(object, key, value) {
   return({...recipess,name});
 }
 
