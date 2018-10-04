@@ -1,7 +1,7 @@
 const recipes = {};
 
 function updateObjectWithKeyAndValue(object, key, value) {
-  return({...recipes,name});
+  return({...recipes,[key]});
 }
 
 
