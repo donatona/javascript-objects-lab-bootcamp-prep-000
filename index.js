@@ -7,8 +7,8 @@ function updateObjectWithKeyAndValue(object, key, value) {
   //  recipes[key] = value;
     
    // return(recipes, newRecipes);
-   recipes[key]=value;
-   return(recipes);
+   var newRecipes = recipes[key]=value;
+   return(newRecipes);
 }
 
 
