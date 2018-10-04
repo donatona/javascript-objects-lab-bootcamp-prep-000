@@ -1,9 +1,9 @@
 const recipes = {};
 
 function updateObjectWithKeyAndValue(object, key, value) {
-   Object.entries(recipes);
+   object.entries(recipes);
    var newRecipes = recipes[key] = value;
-   Object.value(recipes);
+   object.value(recipes);
     recipes[key] = value;
     
     return(recipes, newRecipes);
